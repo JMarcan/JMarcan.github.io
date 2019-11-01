@@ -21,7 +21,7 @@
 title: JMarcan Portfolio Blog
 email: jan.marcan@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This Github Blog shares my stories with Data Science, Machine Learning and Artificial Intelligence.
+  This Github shares my stories with Data Science, Machine Learning and Artificial Intelligence.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com/JMarcan/JMarcan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
