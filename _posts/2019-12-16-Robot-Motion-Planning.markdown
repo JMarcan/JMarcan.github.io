@@ -4,8 +4,6 @@ title:  "Robot Motion Planning - Data Science Nanodegree Capstone Project"
 date:   2019-12-16 17:03:22 +0100
 categories: jekyll update
 ---
-### (The article is in the progress with the project and will be finished by the December 2019)
-
 ![Maze Headline Picture. Source: gettyimages.de](/assets/robot-motion-planning/maze_headline_picture.jpg)
 
 This post is about my graduation project for Udacity Data Science Nanodegree.
@@ -55,6 +53,14 @@ There is no data-preprocessing needed as maze specification is provided to us. A
 Based on the rules for maze creation I've created my own maze that I used for quick verification that my algorithm works properly. The maze contains loops that could confuse algorithm without beeing too much branched.
 The dimensions are 12x12, the starting point is in the left bottom corner and the destination is located in the center, marked in the picture below by yellow color.
 ![My Prototyping Maze](/assets/robot-motion-planning/my_prototyping_maze.png)
+
+## Results
+Algorithm solved mazes with the following scores:
+
+| Maze | Score | Run Time 1 - Exploration | Run Time 2 - Racing |
+| test_maze_01 | 29.17 | 334 | 17 |
+| test_maze_02 | 42.93 | 448 | 27 |
+| test_maze_03 | 49.4 | 582 | 29 |
 
 ## 6. Improvement
 For robot moving the same speed forward as backward, we could extend robot's view to sense in all 4 directions, so he can directly go backward without spending time by turning around.
