@@ -4,7 +4,8 @@ title:  "Stories Hidden In AirBnB Data"
 date:   2020-01-25 17:03:22 +0100
 categories: jekyll update
 ---
-![Avaibility](/assets/stories-hidden-in-airbnb-data/whole_apartments_listed_airbnb_Prague.png)
+[GitHub Repository](https://github.com/JMarcan/stories_hidden_in_airbnb_data/)
+![Entire Apartments Listed in AirBnB Prague](/assets/stories-hidden-in-airbnb-data/whole_apartments_listed_airbnb_Prague.png)
 The picture shows concentration of listed apartments on AirBnB Prague | source: [insideairbnb.com](http://insideairbnb.com/get-the-data.html)
 
 ## Intoduction
@@ -83,7 +84,7 @@ The ratio of following accomodation types was analyzed:
 | San Francisco | 2522 | 72.8% | 24.1% | 3.1% | 3466 |
 | Geneva | 1875 | 69.2% | 29.9% | 0.9% | 2711 |
 
-![Avaibility](/assets/stories-hidden-in-airbnb-data/ratio_whole_apartment_rented.png)
+![Pie Chart for the Ratio of Entire Apartments](/assets/stories-hidden-in-airbnb-data/ratio_whole_apartment_rented.png)
 - Brown in the pie chart is % of entire homes beeing rented on AirBnB
 - Light grey is % of private rooms
 - Dark Grey is % of shared rooms
