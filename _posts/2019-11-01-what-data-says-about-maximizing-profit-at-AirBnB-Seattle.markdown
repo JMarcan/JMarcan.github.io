@@ -32,13 +32,13 @@ In comparision with landlords taking for response a 'few days or more':
 | within a few hours | 131.3\$ | 109% |
 | within an hour | 125.1\$ | 104% |
 
-Although being more responsive will definitely not hurt,
+Assumption: Since ‘price’ represents listed data instead of true realized income the statement above is made with the assumption that the axinom of rationality is valid and landlords set pricing in such a way that their income is maximized.
+
+In addition, although being more responsive will definitely not hurt,
 I want to stress that the correlation is not necessary the causation as demonstrate the picture below:
  
 ![correlation is not causation](/assets/what-data-says about-maximizing profit-at-AirBnB-Seattle/correlation_is_not_causation.png)
 source: [spurious-correlations](http://tylervigen.com/spurious-correlations)
-
-Assumption: Since 'price' represents listed data instead of true realized income the statement above is made with the assumption that the [axinom of rationality](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Morgenstern_utility_theorem) is valid and landlords set pricing in such a way that their income is maximized.
 
 ### 2. Landlords in Seattle should keep their houses rented during summer months
 ### 3. Visitors of Seattle should consider postponing their visit to winter months
