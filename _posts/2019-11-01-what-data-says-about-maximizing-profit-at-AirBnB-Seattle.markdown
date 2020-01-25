@@ -38,11 +38,13 @@ I want to stress that the correlation is not necessary the causation as demonstr
 ![correlation is not causation](/assets/what-data-says about-maximizing profit-at-AirBnB-Seattle/correlation_is_not_causation.png)
 source: [spurious-correlations](http://tylervigen.com/spurious-correlations)
 
+Assumption: Since 'price' represents listed data instead of true realized income the statement above is made with the assumption that the [axinom of rationality](https://en.wikipedia.org/wiki/Von_Neumann%E2%80%93Morgenstern_utility_theorem) is valid and landlords set pricing in such a way that their income is maximized.
+
 ### 2. Landlords in Seattle should keep their houses rented during summer months
 ### 3. Visitors of Seattle should consider postponing their visit to winter months
-Assumption: data in 'calendar.csv' contains past data of prices.
 
 ![Prices](/assets/what-data-says about-maximizing profit-at-AirBnB-Seattle/prices.png)
+Assumption: data in 'calendar.csv' contains past data of prices.
 The most profitable time for landlords (and the most expensive one for tenants) was the summer time.
 
 In contrast, during the winter months are average prices the lowest.
