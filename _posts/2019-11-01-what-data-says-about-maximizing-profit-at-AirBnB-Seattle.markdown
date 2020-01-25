@@ -44,7 +44,7 @@ source: [spurious-correlations](http://tylervigen.com/spurious-correlations)
 ### 3. Visitors of Seattle should consider postponing their visit to winter months
 
 ![Prices](/assets/what-data-says about-maximizing profit-at-AirBnB-Seattle/prices.png)
-Assumption: data in 'calendar.csv' contains past data of prices.
+Assumption: data in 'calendar.csv' contains past data for prices.
 
 The most profitable time for landlords (and the most expensive one for tenants) was the summer time.
 
