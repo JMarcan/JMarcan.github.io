@@ -45,6 +45,7 @@ source: [spurious-correlations](http://tylervigen.com/spurious-correlations)
 
 ![Prices](/assets/what-data-says about-maximizing profit-at-AirBnB-Seattle/prices.png)
 Assumption: data in 'calendar.csv' contains past data of prices.
+
 The most profitable time for landlords (and the most expensive one for tenants) was the summer time.
 
 In contrast, during the winter months are average prices the lowest.
