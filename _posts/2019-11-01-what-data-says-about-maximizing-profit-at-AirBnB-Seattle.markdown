@@ -40,7 +40,7 @@ source: [spurious-correlations](http://tylervigen.com/spurious-correlations)
 
 ### 2. Landlords in Seattle should keep their houses rented during summer months
 ### 3. Visitors of Seattle should consider postponing their visit to winter months
-The findings have assumption, that data in 'calendar.csv' contains past data of prices.
+Assumption: data in 'calendar.csv' contains past data of prices.
 
 ![Prices](/assets/what-data-says about-maximizing profit-at-AirBnB-Seattle/prices.png)
 The most profitable time for landlords (and the most expensive one for tenants) was the summer time.
