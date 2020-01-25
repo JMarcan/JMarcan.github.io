@@ -33,7 +33,8 @@ In comparision with landlords taking for response a 'few days or more':
 | within an hour | 125.1\$ | 104% |
 
 Although being more responsive will definitely not hurt,
-I want to stress that the correlation is not necessary the causation. 
+I want to stress that the correlation is not necessary the causation as demonstrate the picture below:
+ 
 ![correlation is not causation](/assets/what-data-says about-maximizing profit-at-AirBnB-Seattle/correlation_is_not_causation.png)
 source: [spurious-correlations](http://tylervigen.com/spurious-correlations)
 
