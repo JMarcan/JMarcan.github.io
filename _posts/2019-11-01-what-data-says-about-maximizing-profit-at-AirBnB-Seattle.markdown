@@ -51,4 +51,4 @@ In contrast, during the winter months are average prices the lowest.
 
 The code to reproduce results and add your own data processing is published on [my GitHub](https://github.com/JMarcan/stories_hidden_in_airbnb_data).
 
-You can read more about AirBnB data in my another article [Stories Hidden in AirBnB Data](https://jmarcan.github.io/jekyll/update/2020/01/25/Stories-Hidden-In-AirBnB-Data.html)
+You can read more about AirBnB data in my another article [Stories Hidden in AirBnB Data](https://jmarcan.github.io/jekyll/update/2020/01/25/Stories-Hidden-In-AirBnB-Data.html).
