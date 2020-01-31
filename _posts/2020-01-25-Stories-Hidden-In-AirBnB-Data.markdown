@@ -49,6 +49,7 @@ As training my machine learning model for this task would be an overkill,
 I decided to use available python library [gender_guesser](https://pypi.org/project/gender-guesser/) that can predict whether a provided name is male or female.
 
 ### Results:
+
 | city | male_% | female_% | unknown_% | count_of_records |
 | Prague | 38.1% | 37.3% | 24.5% | 683884 |
 | Munich | 41.4% | 35.3% | 23.2% | 175562 |
