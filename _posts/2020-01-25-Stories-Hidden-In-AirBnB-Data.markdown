@@ -8,7 +8,7 @@ categories: jekyll update
 ![Entire Apartments Listed in AirBnB Prague](/assets/stories-hidden-in-airbnb-data/whole_apartments_listed_airbnb_Prague.png)
 The picture shows concentration of listed apartments on AirBnB Prague | source: [insideairbnb.com](http://insideairbnb.com/get-the-data.html)
 
-## Intoduction
+## Introduction
 
 ### Background
 As citizen, tourist and potential landlord, 
@@ -16,11 +16,11 @@ I was curious what stories AirBnB data reveals.
 
 Specifically, I asked those two questions:
 1. How looks the typical guest using AirBnB services? <br/>Is it foreigner or countryman? Will data reveal a clear segment in which landlords could specialize?
-2. Is Airbnb used primary as home sharing with tourists?<br/> 
-Or as a business where entire flats are dedicated to tourists disturbing local housing market?
+2. Is Airbnb used primary as home-sharing with tourists?<br/> 
+Or as a business where entire flats are dedicated to tourists disturbing the local housing market?
 
 ### Data used
-To find it out, I've took data from [insideairbnb.com](http://insideairbnb.com/get-the-data.html).<br/>
+To find it out, I've taken data from [insideairbnb.com](http://insideairbnb.com/get-the-data.html).<br/>
 Inside Airbnb is an independent, non-commercial set of data that allows you to explore how Airbnb is being used in cities around the world.
 
 - 'reviews.csv': dataset contains guest reviews (6 columns x 683884 rows for Prague)
@@ -29,24 +29,24 @@ Inside Airbnb is an independent, non-commercial set of data that allows you to e
 I've chosen data of the following cities for further analysis:
 - Prague
 - Munich
-- ~~Zurich~~ (Zurich data were temporary unavailable)
+- ~~Zurich~~ (Zurich data were temporarily unavailable)
 - Geneva
 - San Francisco
 
-Data published on 2019 were selected.
+Data published in 2019 were selected.
 
 ## 1. What is the story of a typical guest using AirBnB services?
 Is it foreigner or countryman? What is his/her typical age?
 
 ### Solution steps:
-Here I intended to use unsupervised machine learning to identify guests segments as I did in [this project](https://github.com/JMarcan/unsupervised_learning_customer_segments). However, the only data available about guests seems to be their name in 'reviews.csv'. 
+Here I intended to use unsupervised machine learning to identify guest segments as I did in [this project](https://github.com/JMarcan/unsupervised_learning_customer_segments). However, the only data available about guests seems to be their name in 'reviews.csv'. 
 
 Therefore, the only thing we can find out is whether guests writing reviews are in majority men or women. 
 
 When singer from my hometown Jaromir Nohavica opened his cabaret club, he mentioned that "The secret is to make this place nice for women. When the place is nice for women, they will bring men with them.". Let's check whether it's applicable even here.
 
 As training my machine learning model for this task would be an overkill,
-I decided to use available python library [gender_guesser](https://pypi.org/project/gender-guesser/) that can predict whether a provided name is male or female.
+I decided to use the available python library [gender_guesser](https://pypi.org/project/gender-guesser/) that can predict whether a provided name is male or female.
 
 ### Results:
 
@@ -59,19 +59,19 @@ I decided to use available python library [gender_guesser](https://pypi.org/proj
 ### Conclusion:
 You can see that the library identified in each city gender for more than 75% of inputs.
 
-The table does not show significant difference between ratio of males and females writing reviews. Maximum deviation of 6% has Munich where 41% of authors were identified as males and 35% as females. Taking into consideration unknown gender for authors of 23% reviews for Munich, we will assume that the ratio is close to 50:50 as is case for other cities.
+The table does not show a significant difference between the ratio of males and females writing reviews. The maximum deviation of 6% has Munich where 41% of authors were identified as males and 35% as females. Taking into consideration unknown gender for authors of 23% reviews for Munich, we will assume that the ratio is close to 50:50 as is the case for other cities.
 
-Seems the Wisdom "The secret is to make this place nice for women." is not applicable here. If host wants to have good reviews, he needs to take care about both genders equally. Which he should do anyway.
+Seems the Wisdom "The secret is to make this place nice for women." is not applicable here. If host wants to have good reviews, he needs to take care of both genders equally. Which he should do anyway.
 
-## 2. Is AirBnB used primary as home sharing? Or as business disturbing local housing?
+## 2. Is AirBnB used primarily as home-sharing? Or as business disturbing local housing?
 
 ### Solution steps:
 To find it out, I've analyzed dataset 'listings.csv'.
 
-To analyze impact on local housing market, I've excluded houses that could be potentially only vacation houses.
+To analyze the impact on the local housing market, I've excluded houses that could be potentially only vacation houses.
 Only records with property_type 'Apartment' were taken into consideration.
 
-The ratio of following accommodation types was analyzed:
+The ratio of the following accommodation types was analyzed:
 - 'Entire home/apt' 
 - 'Private room' 
 - 'Shared room']
@@ -91,12 +91,12 @@ The ratio of following accommodation types was analyzed:
 
 ### Conclusion:
 From the table and charts above is clear that on Airbnb are listed mostly entire apartments.<br/>
-- Good for tourists as they have many choices where to stay in place of their own.<br/> 
+- Good for tourists as they have many choices where to stay in a place of their own.<br/> 
 - Not so good for local citizens thought. 
-Houses dedicated for short term rentals are often houses not available for long-term rental, making housing in a city less affordable.
+Houses dedicated to short term rentals are often houses not available for long-term rental, making housing in a city less affordable.
 This represents problem even for cities as they receive money based on how many people live in a given city.
 - The highest number of entire flats available for rent is in Prague where were listed 9947 apartments,
-representing 84% of total AirBnB offering there. Seems AirBnB is becoming more professional business platform, than platform for sharing unused spaces with visitors.
+representing 84% of total AirBnB offering there. Seems AirBnB is becoming a more professional business platform, than a platform for sharing unused spaces with visitors.
 
 Further reading for this topic you can find on [Airbnb vs Berlin](http://airbnbvsberlin.com/).<br/> 
 The code to reproduce results and add your own data processing is published on [my GitHub](https://github.com/JMarcan/stories_hidden_in_airbnb_data).

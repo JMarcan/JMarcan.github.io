@@ -9,7 +9,7 @@ categories: jekyll update
 
 To follow my interest in Data-Science, Digital Platforms and Sharing Economy:
 <br/><br/>
-I've took AirBnB data of Seattle city published on [Kaggle](https://www.kaggle.com/airbnb/seattle/data) to answer the following questions:
+I've taken AirBnB data of Seattle city published on [Kaggle](https://www.kaggle.com/airbnb/seattle/data) to answer the following questions:
 1. How can landlord increase his income by increasing his activity on AirBnB?
 
 2. When is the most profitable month to be landlord at AirBnB?
@@ -20,7 +20,7 @@ I've took AirBnB data of Seattle city published on [Kaggle](https://www.kaggle.c
 
 ### 1. Landlords responding early command higher prices for renting their houses
 
-In comparision with landlords taking for response a 'few days or more':
+In comparison with landlords taking for a response a 'few days or more':
 
 - 4% higher rent commanded by landlords who respond 'within an hour'
 
@@ -32,9 +32,9 @@ In comparision with landlords taking for response a 'few days or more':
 | within a few hours | 131.3\$ | 109% |
 | within an hour | 125.1\$ | 104% |
 
-Assumption: Since ‘price’ represents listed data instead of true realized income the statement above is made with the assumption that the axinom of rationality is valid and landlords set pricing in such a way that their income is maximized.
+Assumption: Since ‘price’ represents listed data instead of true realized income the statement above is made with the assumption that the axiom of rationality is valid and landlords set pricing in such a way that their income is maximized.
 
-In addition, although being more responsive will definitely not hurt,
+Besides, although being more responsive will not hurt,
 I want to stress that the correlation is not necessary the causation as demonstrate the picture below:
  
 ![correlation is not causation](/assets/what-data-says about-maximizing profit-at-AirBnB-Seattle/correlation_is_not_causation.png)
